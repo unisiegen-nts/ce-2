@@ -1,5 +1,6 @@
 %% Communications Engeneering II - Übung 1
 clear;
+import lib.*
 
 f_1 = 1;
 f_0 = 3*f_1
@@ -84,6 +85,3 @@ ylabel('Amplitude');
 xlim([-10*f_1, 10*f_1]);
 ylim([-0.25 1.5]);
 
-%% Teil 11
-f_g = 1; 
-h = @(x) 2.5*f_g*sinc()
